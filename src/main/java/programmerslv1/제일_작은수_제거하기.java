@@ -32,12 +32,12 @@ public class 제일_작은수_제거하기 {
         answer = new int[arr.length - 1];
         int min = arr[0];
 
-        for (int i = 0; i < answer.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             min = Math.min(min, arr[i]);
         }
 
         int idx = 0;
-        for (int i = 0; i < answer.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if(arr[i] == min){
                 continue;
             }
