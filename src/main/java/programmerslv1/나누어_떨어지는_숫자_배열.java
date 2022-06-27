@@ -3,6 +3,7 @@ package programmerslv1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import org.w3c.dom.ls.LSOutput;
 
 public class 나누어_떨어지는_숫자_배열 {
 
@@ -43,6 +44,7 @@ public class 나누어_떨어지는_숫자_배열 {
 
         }
 
+
         if(arrayList.isEmpty()){
             arrayList.add(-1);
         }
@@ -53,8 +55,8 @@ public class 나누어_떨어지는_숫자_배열 {
             answer[i] += arrayList.get(i);
         }
         Arrays.sort(answer);
-
         return answer;
+
     }
 }
 
