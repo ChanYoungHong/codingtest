@@ -29,7 +29,7 @@ public class _2016년 {
         return answer;
 
 
-
+        // 내가 풀어 본 방식.
 //        switch(){
 //            case 1:
 //                System.out.println("FRI");
