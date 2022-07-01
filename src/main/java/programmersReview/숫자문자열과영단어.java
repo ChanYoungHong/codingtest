@@ -18,8 +18,10 @@ public class 숫자문자열과영단어 {
         String[] words = {"zero", "one", "two", "three", "four", "five"
         , "six", "seven", "eight", "nine"};
 
+        // ㅇㅇㅇㅇ
         for (int i = 0; i < 10; i++) {
             s = s.replaceAll(words[i], String.valueOf(nums[i]));
+
         }
 
         return Integer.parseInt(s);
