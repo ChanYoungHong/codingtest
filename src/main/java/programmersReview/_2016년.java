@@ -14,10 +14,13 @@ public class _2016년 {
         String[] date = {"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};
 
         int allDate = 0;
+        // (b-1) 과정을 분리 시킬 것
         for (int i = 0; i < a-1; i++) {
             allDate += month[i] + (b-1);
 
         }
+
+        // 반복문 하나 더 필요 X
         for (int i = 0; i < a - 1; i++) {
             i = allDate%7;
             answer = date[i+1];
