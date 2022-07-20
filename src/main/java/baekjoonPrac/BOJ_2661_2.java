@@ -25,6 +25,7 @@ public class BOJ_2661_2 {
             for (int i = 1; i <= 3; i++) {
                 if(isGoodSequence(result+i)) {
                     backtrakingg(result + i);
+
                 }
             }
         }
@@ -36,7 +37,8 @@ public class BOJ_2661_2 {
 
         //
         for (int i = 1; i <= length; i++) {
-        // 앞에 수와 계속 비교를 해주는 작업. *2는 뒤에서 2번째 칸, -i 첫 번재 칸
+            // 앞에 수와 계속 비교를 해주는 작업. *2는 뒤에서 2번째 칸, -i 첫 번재 칸
+            // 앞에 꺼 계속 확인
             if(s.substring(s.length() - i).equals(s.substring(s.length() - 2*i, s.length() - i))) {
                 return false;
             }
