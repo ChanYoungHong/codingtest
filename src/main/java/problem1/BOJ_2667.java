@@ -93,9 +93,11 @@ public class BOJ_2667 {
         // 4가 어디서 나오는 걸까 ????
         for (int k = 0; k < 4; k++) {
 
+            // 하나씩 다 방문 해보는 코드
             int nx = i + dx[k];
             int ny = j + dy[k];
 
+            // 벽에 다이거나, 막 다른 길일 때 코드
             if(0<=nx && nx<N && 0<=ny && ny<N){
                 if(arr[nx][ny] == 1 && !visited[nx][ny]){
                     dffsfinding(nx, ny);
