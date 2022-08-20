@@ -6,7 +6,7 @@ public class BOJ_27988888 {
 
     static int N, M;
     static int[] exArr;
-    static int q;
+
 
     public static void main(String[] args) {
 
