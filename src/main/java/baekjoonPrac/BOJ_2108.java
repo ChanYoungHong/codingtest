@@ -34,11 +34,6 @@ public class BOJ_2108 {
         int cnt = 0;
         for (int i = 0; i < array.length; i++) {
 
-            if(){
-
-
-            }
-
         }
 
         int result2 = 0;
