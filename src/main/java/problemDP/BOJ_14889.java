@@ -12,3 +12,4 @@ public class BOJ_14889 {
         System.out.println("hello hello test test");
 
     }
+}
