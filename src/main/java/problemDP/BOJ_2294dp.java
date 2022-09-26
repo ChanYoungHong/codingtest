@@ -26,7 +26,7 @@ public class BOJ_2294dp {
 
             for (int j = arr[i]; j < K; j++) {
                 dp[j] = dp[j - arr[i]];
-                result = dp[j];
+//                result = dp[j];
             }
         }
 
