@@ -37,16 +37,12 @@ public class BOJ_단지번호붙이기 {
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-
                 if(array[i][j] == 1 && !visit[i][j]){
-
                     dfssssssss();
 
                 }
             }
         }
-
-
 
     }
 
