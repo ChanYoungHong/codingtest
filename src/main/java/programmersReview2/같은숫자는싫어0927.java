@@ -33,6 +33,7 @@ public class 같은숫자는싫어0927 {
         for (int i = 0; i < result.length; i++) {
             result[i] = temp.get(i);
             System.out.print(result[i] + " ");
+
         }
 
     }
